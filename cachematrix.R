@@ -2,7 +2,7 @@
 ## It contains the methods to appropriately get, set, getInv and setInv of the matrix
 
 ## First we create the matrix object with appropriate get set methods; this is where lexical scoping is used to store the Inverse of 
-## where the inv variable in the parent frame is set from within the setInv function
+## where the inv variable in the parent frame is set from within the setInv function. setInv is called from the cacheSolve function
 
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL
